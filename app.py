@@ -5,7 +5,6 @@ import tensorflow as tf
 import re
 sys.path.append('./models')
 import cnn
-from matplotlib import pyplot as plt
 from scipy.misc import imsave, imread, imresize, imshow
 import base64
 from scipy.ndimage.interpolation import zoom
